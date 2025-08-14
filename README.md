@@ -40,7 +40,3 @@ This project helps track attendance status (Present/Absent) for each student and
 
 
 
-
-
-JOIN attendance a ON s.student_id = a.student_id
-GROUP BY s.name;
